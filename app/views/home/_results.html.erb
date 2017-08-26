@@ -1,0 +1,10 @@
+	<% @index.each do |i| %>
+		<div class="col-md-4">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<h4><%= @titles[i] %></h4>
+					<div style="height:280px"><img src=<%= @images[i] %>></img></div>
+				</div>
+			</div>
+		 </div>
+	<% end %>
