@@ -2,9 +2,10 @@
 
 You **must** have Rails installed in order to run this web application. Please go to http://railsinstaller.org/en and follow the instructions for your operating system.
 
-Once Rails is installed, clone the project repository, navigate, and enter the following commands into your console:
+Once Rails is installed, clone the project repository, navigate to the local directory in your console, and enter the following commands:
 ```
 bundle install
+
 rake routes
 ```
 
