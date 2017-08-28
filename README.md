@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+You **must** have Rails installed in order to run this web application. Please go to http://railsinstaller.org/en and follow the instructions for your operating system.
 
-Things you may want to cover:
+Once Rails is installed, clone the project repository, navigate, and enter the following commands into your console:
+```
+bundle install
+rake routes
+```
 
-* Ruby version
+Then start your Rails server:
+```
+rails s
+```
 
-* System dependencies
+Your console should output something similar to the following message:
+```
+=> Booting Puma
+=> Rails 5.0.5 application starting in development on http://localhost:3000
+=> Run `rails server -h` for more startup options
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Navigate to http://<span></span>localhost:#### (where #### is whichever port your server is running on).
